@@ -31,8 +31,10 @@ shinyServer(function(input, output) {
                         The code files <code>ui.R</code> and <code>server.R</code> for this app can
                         be found on 
                         <a href='https://github.com/richardlent/ShinyApplicationAndReproduciblePitch'
-                         target='_blank'>
-                        GitHub</a>.")
+                         target='_blank'>GitHub</a>.<br><br>
+                        A slide presentation describing this app may be viewed  
+                        <a href='http://rpubs.com/richardlent/420778' target='_blank'>here</a>.")
+                         
     showModal(modalDialog(
       title = HTML("<center><h3>Documentation</h3></center>"), helpContent
     ))
