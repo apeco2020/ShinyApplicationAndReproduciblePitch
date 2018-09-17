@@ -27,7 +27,12 @@ shinyServer(function(input, output) {
                         drop-down lists, then press
                         the <b>Draw graph</b> button to draw the graph. You can select any combination of
                         variable and graph type. Press the <b>Draw graph</b> button again to re-draw the graph
-                        after making different selections.")
+                        after making different selections.<br><br>
+                        The code files <code>ui.R</code> and <code>server.R</code> for this app can
+                        be found on 
+                        <a href='https://github.com/richardlent/ShinyApplicationAndReproduciblePitch'
+                         target='_blank'>
+                        GitHub</a>.")
     showModal(modalDialog(
       title = HTML("<center><h3>Documentation</h3></center>"), helpContent
     ))
